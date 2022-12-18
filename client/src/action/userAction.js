@@ -8,7 +8,7 @@ import {
   USER_REGISTER_SUCCESS,
 } from "../constant/user";
 
-const URL = "https://mernelearning.herokuapp.com";
+const URL = "https://sparkling-fawn-loincloth.cyclic.app/";
 
 export const registerUser =
   (username, email, password, config, history) => async (dispatch) => {

@@ -5,7 +5,7 @@ import { Container, Form, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Message from "../../shared/Message";
 
-const URL = "http://localhost:8030";
+const URL = "https://sparkling-fawn-loincloth.cyclic.app/";
 
 const ResetPasswordScreen = ({ match }) => {
   const [password, setPassword] = useState("");

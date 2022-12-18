@@ -8,7 +8,7 @@ import {
   GET_COURSE_SUCCESS,
 } from "../constant/courseConstant";
 
-const URL = "https://mernelearning.herokuapp.com";
+const URL = "https://sparkling-fawn-loincloth.cyclic.app/";
 
 export const courseList = () => async (dispatch) => {
   try {

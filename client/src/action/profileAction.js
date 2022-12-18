@@ -12,8 +12,8 @@ import {
   USER_UPDATE_SUCCESS,
 } from "../constant/user";
 
-const URL = "https://mernelearning.herokuapp.com";
-const URLs = "http://localhost:8030";
+const URL = "https://sparkling-fawn-loincloth.cyclic.app/";
+const URLs = "https://sparkling-fawn-loincloth.cyclic.app/";
 
 export const usersBlog = (email) => async (dispatch) => {
   try {

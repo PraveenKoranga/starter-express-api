@@ -17,7 +17,7 @@ import {
   UPDATE_BLOG_SUCCESS,
 } from "../constant/blog";
 
-const URL = "https://mernelearning.herokuapp.com";
+const URL = "https://sparkling-fawn-loincloth.cyclic.app/";
 
 export const createBlog =
   (username, email, createdDate, title, category, description, history) =>

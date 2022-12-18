@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import React, { useState } from "react";
 import Message from "../../shared/Message";
 
-const URL = "http://localhost:8030";
+const URL = "https://sparkling-fawn-loincloth.cyclic.app/";
 
 const ForgotPasswordScreen = () => {
   const [email, setEmail] = useState("");

@@ -8,8 +8,8 @@ import {
   GET_REVIEW_SUCCESS,
 } from "../constant/reviewConstant";
 
-const URL = "https://mernelearning.herokuapp.com";
-// const URL = "http://localhost:8030";
+const URL = "https://sparkling-fawn-loincloth.cyclic.app/";
+// const URL = "https://sparkling-fawn-loincloth.cyclic.app/";
 
 export const postReview =
   (name, image, email, date, review) => async (dispatch) => {
